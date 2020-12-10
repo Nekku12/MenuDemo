@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[AteriaTyyppi]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Nimi] NVARCHAR(50) NULL
+)

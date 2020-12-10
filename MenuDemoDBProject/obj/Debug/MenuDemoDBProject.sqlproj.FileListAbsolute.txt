@@ -1,0 +1,10 @@
+C:\Users\aikio\source\repos\MenuDemoDBProject\bin\Debug\MenuDemoDBProject.dacpac
+C:\Users\aikio\source\repos\MenuDemoDBProject\bin\Debug\MenuDemoDBProject.dll
+C:\Users\aikio\source\repos\MenuDemoDBProject\bin\Debug\MenuDemoDBProject.pdb
+C:\Users\aikio\source\repos\MenuDemoDBProject\obj\Debug\MenuDemoDBProject.sqlprojAssemblyReference.cache
+C:\Users\aikio\source\repos\MenuDemoDBProject\obj\Debug\MenuDemoDBProject.dll
+C:\Users\aikio\source\repos\MenuDemoDBProject\obj\Debug\MenuDemoDBProject.pdb
+C:\Users\aikio\source\repos\MenuDemoDBProject\obj\Debug\Model.xml
+C:\Users\aikio\source\repos\MenuDemoDBProject\obj\Debug\refactor.xml
+C:\Users\aikio\source\repos\MenuDemoDBProject\obj\Debug\postdeploy.sql
+C:\Users\aikio\source\repos\MenuDemoDBProject\obj\Debug\predeploy.sql

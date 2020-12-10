@@ -1,0 +1,59 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Allergia] (Table)
+       [dbo].[AllergJalk] (Table)
+       [dbo].[AllergJuom] (Table)
+       [dbo].[AllergRuok] (Table)
+       [dbo].[AllergSal] (Table)
+       [dbo].[Ateria] (Table)
+       [dbo].[Jalkiruoka] (Table)
+       [dbo].[Juoma] (Table)
+       [dbo].[KategAter] (Table)
+       [dbo].[Kategoria] (Table)
+       [dbo].[KoottuAteria] (Table)
+       [dbo].[Ravintola] (Table)
+       [dbo].[RavRuokList] (Table)
+       [dbo].[Ruoka] (Table)
+       [dbo].[RuokaLista] (Table)
+       [dbo].[RuokListKat] (Table)
+       [dbo].[Salaatti] (Table)
+       [dbo].[FK_AllergJalk_Allergia] (Foreign Key)
+       [dbo].[FK_AllergJalk_Jalkiruoka] (Foreign Key)
+       [dbo].[FK_AllergJuom_Allergia] (Foreign Key)
+       [dbo].[FK_AllergJuom_Juoma] (Foreign Key)
+       [dbo].[FK_AllergRuok_Allergia] (Foreign Key)
+       [dbo].[FK_AllergRuok_Ruoka] (Foreign Key)
+       [dbo].[FK_AllergSal_Salaatti] (Foreign Key)
+       [dbo].[FK_AllergSal_Allergia] (Foreign Key)
+       [dbo].[FK_Ateria_KoottuAteria] (Foreign Key)
+       [dbo].[FK_Jalkiruoka_AllergJalk] (Foreign Key)
+       [dbo].[FK_Juoma_AllergJuom] (Foreign Key)
+       [dbo].[FK_KategAter_Kategoria] (Foreign Key)
+       [dbo].[FK_KategAter_Ateria] (Foreign Key)
+       [dbo].[FK_Kategoria_KategAter] (Foreign Key)
+       [dbo].[FK_Kategoria_RuokListKat] (Foreign Key)
+       [dbo].[FK_KoottuAteria_Jalkiruoka] (Foreign Key)
+       [dbo].[FK_KoottuAteria_Ruoka] (Foreign Key)
+       [dbo].[FK_KoottuAteria_Salaatti] (Foreign Key)
+       [dbo].[FK_KoottuAteria_Juoma] (Foreign Key)
+       [dbo].[FK_Ravintola_RavRuokList] (Foreign Key)
+       [dbo].[FK_RavRuokList_RuokaLista] (Foreign Key)
+       [dbo].[FK_RavRuokList_Ravintola] (Foreign Key)
+       [dbo].[FK_Ruoka_AllergRuok] (Foreign Key)
+       [dbo].[FK_RuokaLista_RuokListKat] (Foreign Key)
+       [dbo].[FK_RuokaLista_RavRuokList] (Foreign Key)
+       [dbo].[FK_RuokListKat_Kategoria] (Foreign Key)
+       [dbo].[FK_RuokListKat_RuokaLista] (Foreign Key)
+       [dbo].[FK_Salaatti_AllergSal] (Foreign Key)
+
+** Supporting actions

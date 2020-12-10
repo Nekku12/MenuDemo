@@ -1,0 +1,50 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Jalkiruoka].[AllergJalkId] is being dropped, data loss could occur.
+       The column [dbo].[Juoma].[AllergJuomId] is being dropped, data loss could occur.
+       The column [dbo].[Kategoria].[KategAterId] is being dropped, data loss could occur.
+       The column [dbo].[Kategoria].[RuokListKatId] is being dropped, data loss could occur.
+       The column [dbo].[Ravintola].[RavRuokListId] is being dropped, data loss could occur.
+       The column [dbo].[Ruoka].[AllergRuokId] is being dropped, data loss could occur.
+       The column [dbo].[RuokaLista].[RavRuokListId] is being dropped, data loss could occur.
+       The column [dbo].[RuokaLista].[RuokListKatId] is being dropped, data loss could occur.
+       The column [dbo].[Salaatti].[AllergSalId] is being dropped, data loss could occur.
+
+** User actions
+     Drop
+       [dbo].[FK_Jalkiruoka_AllergJalk] (Foreign Key)
+       [dbo].[FK_Juoma_AllergJuom] (Foreign Key)
+       [dbo].[FK_Kategoria_KategAter] (Foreign Key)
+       [dbo].[FK_Kategoria_RuokListKat] (Foreign Key)
+       [dbo].[FK_Ravintola_RavRuokList] (Foreign Key)
+       [dbo].[FK_Ruoka_AllergRuok] (Foreign Key)
+       [dbo].[FK_RuokaLista_RavRuokList] (Foreign Key)
+       [dbo].[FK_RuokaLista_RuokListKat] (Foreign Key)
+       [dbo].[FK_Salaatti_AllergSal] (Foreign Key)
+     Alter
+       [dbo].[Jalkiruoka] (Table)
+       [dbo].[Juoma] (Table)
+       [dbo].[Kategoria] (Table)
+       [dbo].[Ravintola] (Table)
+       [dbo].[Ruoka] (Table)
+       [dbo].[RuokaLista] (Table)
+       [dbo].[Salaatti] (Table)
+
+** Supporting actions
+
+The column [dbo].[Jalkiruoka].[AllergJalkId] is being dropped, data loss could occur.
+The column [dbo].[Juoma].[AllergJuomId] is being dropped, data loss could occur.
+The column [dbo].[Kategoria].[KategAterId] is being dropped, data loss could occur.
+The column [dbo].[Kategoria].[RuokListKatId] is being dropped, data loss could occur.
+The column [dbo].[Ravintola].[RavRuokListId] is being dropped, data loss could occur.
+The column [dbo].[Ruoka].[AllergRuokId] is being dropped, data loss could occur.
+The column [dbo].[RuokaLista].[RavRuokListId] is being dropped, data loss could occur.
+The column [dbo].[RuokaLista].[RuokListKatId] is being dropped, data loss could occur.
+The column [dbo].[Salaatti].[AllergSalId] is being dropped, data loss could occur.
+
